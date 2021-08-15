@@ -81,3 +81,22 @@ body {
 .mobile-item-text {
   font-size: 14px;
 }
+/* STANDARTS */
+.standarts-title {
+  color: var(--main-title-color);
+}
+.standarts-link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.standarts-link:hover,
+.standarts-link:focus {
+  color: yellowgreen;
+}
+.standarts-item-digit {
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
+}
