@@ -15,6 +15,13 @@
 body {
   font-family: "montserrat", sans-serif;
   font-size: 16px;
+  line-height: 1.56;
+  color: var(--main-text-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.48;
 }
 .header {
   background-color: grey;
@@ -54,4 +61,23 @@ body {
   font-size: 48px;
   line-height: 1.33;
   text-align: center;
+}
+
+/* MOBILE */
+.mobile-title {
+  color: var(--main-title-color);
+  text-align: center;
+}
+
+.mobile-text {
+  text-align: center;
+}
+.mobile-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+}
+.mobile-item-text {
+  font-size: 14px;
 }
