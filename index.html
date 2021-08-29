@@ -1,152 +1,140 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Главная</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Наши проекты</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Услуги</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Новости</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="hero-text">Передовая IT студия</p>
+      <h1 class="hero-title">
+        Мы создаем легкие решения сложных задач и проблем
+      </h1>
+      <button class="hero-button button" type="button">Наши проекты</button>
+    </section>
+    <!-- mobile -->
+    <section class="mobile">
       <div class="container">
-        <nav class="navigation">
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link" href="./index.html">Главная</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Наши проекты</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Услуги</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Новости</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="hero">
-        <p class="hero-text">Передовая IT студия</p>
-        <h1 class="hero-title">
-          Мы создаем легкие решения сложных задач и проблем
-        </h1>
-        <button class="hero-button button" type="button">Наши проекты</button>
-      </section>
-      <!-- mobile -->
-      <section class="mobile">
-        <div class="container">
-          <h2 class="mobile-title section-title">
-            Мы создаем мобильные приложения для крупных корпораций
-          </h2>
-          <p class="mobile-text">
-            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
-            латинице с начала XVI века.
-          </p>
-          <ul class="mobile-list list">
-            <li class="mobile-item">
-              <div class="mobile-circle-out">
-                <div class="mobile-circle-in">
-                  <svg class="mobile-icon" width="40" height="40">
-                    <use href="./images/symbol-defs.svg#icon-mobile"></use>
-                  </svg>
-                </div>
+        <h2 class="mobile-title section-title">Мы создаем мобильные приложения для крупных корпораций</h2>
+        <p class="mobile-text">
+          Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+          латинице с начала XVI века.
+        </p>
+        <ul class="mobile-list list">
+          <li class="mobile-item">
+            <div class="mobile-circle-out">
+              <div class="mobile-circle-in">
+                <svg class="mobile-icon" width="40" height="40">
+                  <use href="./images/symbol-defs.svg#icon-mobile"></use>
+                </svg>
               </div>
-              <div class="mobile-item-content">
-                <h3 class="mobile-item-title">Создание сайтов</h3>
-                <p class="mobile-item-text">
-                  Lorem Ipsum - это текст- "рыба", часто используе в печати и
-                  вэб-дизайне.
-                </p>
+            </div>
+            <div class="mobile-item-content">
+              <h3 class="mobile-item-title">Создание сайтов</h3>
+              <p class="mobile-item-text">
+                Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                вэб-дизайне.
+              </p>
+            </div>
+          </li>
+          <li class="mobile-item">
+            <div class="mobile-circle-out">
+              <div class="mobile-circle-in">
+                <svg class="mobile-icon" width="40" height="40">
+                  <use href="./images/symbol-defs.svg#icon-mobile"></use>
+                </svg>
               </div>
-            </li>
-            <li class="mobile-item">
-              <div class="mobile-circle-out">
-                <div class="mobile-circle-in">
-                  <svg class="mobile-icon" width="40" height="40">
-                    <use href="./images/symbol-defs.svg#icon-mobile"></use>
-                  </svg>
-                </div>
+            </div>
+            <div class="mobile-item-content">
+              <h3 class="mobile-item-title">Создание сайтов</h3>
+              <p class="mobile-item-text">
+                Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                вэб-дизайне.
+              </p>
+            </div>
+          </li>
+          <li class="mobile-item">
+            <div class="mobile-circle-out">
+              <div class="mobile-circle-in">
+                <svg class="mobile-icon" width="40" height="40">
+                  <use href="./images/symbol-defs.svg#icon-mobile"></use>
+                </svg>
               </div>
-              <div class="mobile-item-content">
-                <h3 class="mobile-item-title">Создание сайтов</h3>
-                <p class="mobile-item-text">
-                  Lorem Ipsum - это текст- "рыба", часто используе в печати и
-                  вэб-дизайне.
-                </p>
-              </div>
-            </li>
-            <li class="mobile-item">
-              <div class="mobile-circle-out">
-                <div class="mobile-circle-in">
-                  <svg class="mobile-icon" width="40" height="40">
-                    <use href="./images/symbol-defs.svg#icon-mobile"></use>
-                  </svg>
-                </div>
-              </div>
-              <div class="mobile-item-content">
-                <h3 class="mobile-item-title">Создание сайтов</h3>
-                <p class="mobile-item-text">
-                  Lorem Ipsum - это текст- "рыба", часто используе в печати и
-                  вэб-дизайне.
-                </p>
-              </div>
-            </li>
-          </ul>
+            </div>
+            <div class="mobile-item-content">
+              <h3 class="mobile-item-title">Создание сайтов</h3>
+              <p class="mobile-item-text">
+                Lorem Ipsum - это текст- "рыба", часто используе в печати и
+                вэб-дизайне.
+              </p>
+            </div>
+          </li>
+        </ul>
 
-          <button class="mobile-button button" type="button">Все услуги</button>
-        </div>
-      </section>
-      <section class="standarts">
-        <div class="container">
-          <div class="standarts-top">
-            <div class="standarts-content">
-          <h2 class="standarts-title section-title">
-            Высокие стандарты разработки
-          </h2>
-          <p class="standarts-text">
-            Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
-            латинице с начала XVI века. стандартной "рыбой" для текстов на
-            латинице с начала XVI века.
-          </p>
-          <a class="standarts-link" href="">Подробнее о компании</a>
+        <button class="mobile-button button" type="button">Все услуги</button>
+      </div>
+    </section>
+    <section class="standarts">
+      <div class="container">
+        <div class="standarts-top">
+          <div class="standarts-content">
+            <h2 class="standarts-title section-title">
+              Высокие стандарты разработки
+            </h2>
+            <p class="standarts-text">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+              латинице с начала XVI века. стандартной "рыбой" для текстов на
+              латинице с начала XVI века.
+            </p>
+            <a class="standarts-link" href="">Подробнее о компании</a>
           </div>
-          <img
-            src="./images/standarts-image.jpg"
-            alt="Человек делает записи"
-            width="500"
-            height="400"
-          />
+          <img src="./images/standarts-image.jpg" alt="Человек делает записи" width="500" height="400" />
         </div>
         <ul class="standarts-list list">
           <li class="standarts-item">
             <div class="standarts-item-head">
-            <svg class="standarts-icon" width="30" height="30">
-              <use href="./images/symbol-defs.svg#icon-web"></use>
-            </svg>
-            <span class="standarts-item-digit">125</span>
+              <svg class="standarts-icon" width="30" height="30">
+                <use href="./images/symbol-defs.svg#icon-web"></use>
+              </svg>
+              <span class="standarts-item-digit">125</span>
             </div>
             <p class="standarts-item-text">Our projects</p>
           </li>
@@ -187,22 +175,21 @@
             <p class="standarts-item-text">Our projects</p>
           </li>
         </ul>
+      </div>
+    </section>
+    <!-- works -->
+    <section class="works">
+      <div class="container">
+        <div class="works-head">
+          <h2 class="works-title section-title">
+            Наши работы, на которых мы специализируемся
+          </h2>
+          <button class="button" type="button">Все услуги</button>
         </div>
-      </section>
-      <!-- works -->
-      <section class="works">
-        <h2 class="works-title section-title">
-          Наши работы, на которых мы специализируемся
-        </h2>
-        <button class="button" type="button">Все услуги</button>
         <ul class="works-list list">
           <li class="works-item">
-            <img
-              src="./images/works-image.jpg"
-              alt="люди работают за коипьютером"
-              width="350"
-              height="300"
-            />
+            <img class="works-item-img" src="./images/works-image.jpg" alt="люди работают за коипьютером" width="350"
+              height="300" />
             <h3 class="works-item-title">
               <span>01.</span> Исследование и упаковка
             </h3>
@@ -214,12 +201,8 @@
             <a href="" class="works-item-link">Подробнее</a>
           </li>
           <li class="works-item">
-            <img
-              src="./images/works-image.jpg"
-              alt="люди работают за коипьютером"
-              width="350"
-              height="300"
-            />
+            <img class="works-item-img" src="./images/works-image.jpg" alt="люди работают за коипьютером" width="350"
+              height="300" />
             <h3 class="works-item-title">
               <span>01.</span> Исследование и упаковка
             </h3>
@@ -231,12 +214,8 @@
             <a href="" class="works-item-link">Подробнее</a>
           </li>
           <li class="works-item">
-            <img
-              src="./images/works-image.jpg"
-              alt="люди работают за коипьютером"
-              width="350"
-              height="300"
-            />
+            <img class="works-item-img" src="./images/works-image.jpg" alt="люди работают за коипьютером" width="350"
+              height="300" />
             <h3 class="works-item-title">
               <span>01.</span> Исследование и упаковка
             </h3>
@@ -248,64 +227,42 @@
             <a href="" class="works-item-link">Подробнее</a>
           </li>
         </ul>
-      </section>
-      <!-- Our projests -->
-      <section class="our-projects">
-        <h2 class="our-projects-title section-title">Наши проекты</h2>
-        <p class="our-projects-text">
-          Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-          вэб-дизайне. <br />
-          Lorem Ipsum является стандартной "рыбой" для текстов на латинице с
-          начала XVI века.
-        </p>
-        <ul class="our-projects-list list">
-          <li class="our-projects-item">
-            <img
-              src="./images/code-image.jpg"
-              alt="набран код"
-              width="255"
-              height="255"
-            />
-          </li>
-          <li class="our-projects-item">
-            <img
-              src="./images/code-image.jpg"
-              alt="набран код"
-              width="255"
-              height="255"
-            />
-          </li>
-          <li class="our-projects-item">
-            <img
-              src="./images/code-image.jpg"
-              alt="набран код"
-              width="255"
-              height="255"
-            />
-          </li>
-          <li class="our-projects-item">
-            <img
-              src="./images/code-image.jpg"
-              alt="набран код"
-              width="255"
-              height="255"
-            />
-          </li>
-        </ul>
-        <button class="button" type="button">Все проекты</button>
-      </section>
-      <section class="video-about-us">
-        <h2 class="video-about-us-title section-title">Видео о нашей работе</h2>
-        <p class="video-about-us-text">Просто посмотрите, как мы работаем</p>
-        <video
-          class="video-about-us-trailer"
-          src=""
-          poster="/images/post-video-image.jpg"
-          width="970"
-        >
-          Смотреть видео
-        </video>
-      </section>
-    </main>
-  </body>
+        <div class="works-line"></div>
+      </div>
+    </section>
+    <!-- Our projests -->
+    <section class="our-projects">
+      <h2 class="our-projects-title section-title">Наши проекты</h2>
+      <p class="our-projects-text">
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+        вэб-дизайне. <br />
+        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с
+        начала XVI века.
+      </p>
+      <ul class="our-projects-list list">
+        <li class="our-projects-item">
+          <img src="./images/code-image.jpg" alt="набран код" width="255" height="255" />
+        </li>
+        <li class="our-projects-item">
+          <img src="./images/code-image.jpg" alt="набран код" width="255" height="255" />
+        </li>
+        <li class="our-projects-item">
+          <img src="./images/code-image.jpg" alt="набран код" width="255" height="255" />
+        </li>
+        <li class="our-projects-item">
+          <img src="./images/code-image.jpg" alt="набран код" width="255" height="255" />
+        </li>
+      </ul>
+      <button class="button" type="button">Все проекты</button>
+    </section>
+    <section class="video-about-us">
+      <h2 class="video-about-us-title section-title">Видео о нашей работе</h2>
+      <p class="video-about-us-text">Просто посмотрите, как мы работаем</p>
+      <video class="video-about-us-trailer" src="" poster="/images/post-video-image.jpg" width="970">
+        Смотреть видео
+      </video>
+    </section>
+  </main>
+</body>
+
 </html>
